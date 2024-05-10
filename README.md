@@ -15,7 +15,7 @@ The `myFind` utility locates files, directories, and symbolic links within a spe
 
 #### Usage:
 
-`myFind [options] /path/to/directory` 
+`./myFind [options] /path/to/directory` 
 
 #### Options:
 
@@ -30,7 +30,7 @@ The `myRotate` utility is used to archive `.log` files into compressed tar archi
 
 #### Usage:
 
-`archive -a path/to/archive/destination [file1 file2 ...]` 
+`./myRotate [-a path/to/archive/destination] file1 [file2 ...]` 
 
 #### Options:
 
@@ -42,7 +42,7 @@ The `myWc` utility is similar to the `wc` command in Unix-like operating systems
 
 #### Usage:
 
-`myWc [options] file1 [file2 ...]` 
+`./myWc [options] file1 [file2 ...]` 
 
 #### Options:
 
